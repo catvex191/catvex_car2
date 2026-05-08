@@ -34,6 +34,6 @@ RegisterCommand("car2", function(source, args, rawCommand)
         ToggleVehicleMod(vehicle, 18, true)
 
         SetModelAsNoLongerNeeded(vehicleName)
-        -- ESX.ShowNotification("~g~Fahrzeug gespawnt:~s~ " .. vehicleName)
+        ESX.ShowNotification("~g~Fahrzeug gespawnt:~s~ " .. vehicleName)
     end)
 end)
