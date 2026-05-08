@@ -13,3 +13,5 @@ ESX.RegisterServerCallback('car2:checkAdmin', function(source, cb)
         cb(false)
     end
 end)
+
+print("[🐈‍⬛ CatVex] Script gestartet ✅")
